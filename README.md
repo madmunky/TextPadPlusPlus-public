@@ -1,6 +1,6 @@
-# MacPadPlusPlus Public Support
+# MacPadPlus Public Support
 
-This repository contains public-facing documentation and feedback channels for MacPadPlusPlus.
+This repository contains public-facing documentation and feedback channels for MacPadPlus.
 
 ## What is in this repository
 
