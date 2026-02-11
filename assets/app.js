@@ -59,13 +59,12 @@
       lightboxClose.focus();
     };
 
-    var triggerLinks = document.querySelectorAll("a[data-lightbox]");
-    triggerLinks.forEach(function (link) {
-      link.addEventListener("click", function (event) {
-        event.preventDefault();
-        var childImage = link.querySelector("img");
+    var triggerNodes = document.querySelectorAll(".lightbox-trigger[data-lightbox-src]");
+    triggerNodes.forEach(function (node) {
+      node.addEventListener("click", function () {
+        var childImage = node.querySelector("img");
         var altText = childImage ? childImage.alt : "Expanded screenshot";
-        openLightbox(link.getAttribute("href"), altText, link);
+        openLightbox(node.getAttribute("data-lightbox-src"), altText, node);
       });
     });
 
