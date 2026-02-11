@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MacPadPlus Bugs & Features</title>
+  <meta name="description" content="Public bug fixes and feature updates for MacPadPlus.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MacPadPlus Bugs & Features">
+  <meta property="og:description" content="Track shipped fixes and product improvements for MacPadPlus.">
+  <meta property="og:url" content="https://madmunky.github.io/MacPadPlusPlus-public/updates.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="background-glow glow-1" aria-hidden="true"></div>
+  <div class="background-glow glow-2" aria-hidden="true"></div>
+
+  <header class="container">
+    <nav class="top-nav">
+      <a class="brand" href="./">MacPadPlus</a>
+      <div class="nav-links">
+        <a href="./">Support</a>
+        <a href="./faq.html">FAQ</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="https://github.com/madmunky/MacPadPlusPlus-public/issues" target="_blank" rel="noreferrer">Feedback</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero hero-compact">
+      <span class="eyebrow">Product Updates</span>
+      <h1>Bugs & Features</h1>
+      <p class="hero-copy">This page tracks shipped fixes and feature updates for MacPadPlus.</p>
+    </section>
+
+    <section class="container support-template">
+      <h2>Latest Update</h2>
+      <p><strong>Version:</strong> 1.0.1</p>
+      <p><strong>Date:</strong> February 11, 2026</p>
+    </section>
+
+    <section class="container features">
+      <article class="card">
+        <h2>Bugs Fixed</h2>
+        <ul class="capability-list">
+          <li>Fixed a line-number mismatch where the highlighted line could differ from the displayed log line number.</li>
+          <li>Fixed save failures caused by missing temporary file paths when writing back to existing files.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Features Added</h2>
+        <ul class="capability-list">
+          <li>Added support channel choice for feedback and bug reporting (GitHub issue or email).</li>
+          <li>Added permission-aware save retry flow when macOS folder write access must be granted.</li>
+          <li>Added a Help menu link in the app that opens this public Bugs & Features page.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Track Work</h2>
+        <ul class="link-list capability-list">
+          <li><a href="https://github.com/madmunky/MacPadPlusPlus-public/issues" target="_blank" rel="noreferrer">Open issues</a></li>
+          <li><a href="https://github.com/madmunky/MacPadPlusPlus-public/releases" target="_blank" rel="noreferrer">Release history</a></li>
+          <li><a href="https://github.com/madmunky/MacPadPlusPlus-public/issues/new?labels=bug" target="_blank" rel="noreferrer">Report a bug</a></li>
+          <li><a href="https://github.com/madmunky/MacPadPlusPlus-public/issues/new?labels=enhancement" target="_blank" rel="noreferrer">Request a feature</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> MacPadPlus</p>
+    <div class="footer-links">
+      <a href="./">Support</a>
+      <a href="./faq.html">FAQ</a>
+      <a href="./privacy.html">Privacy</a>
+      <a href="https://github.com/madmunky/MacPadPlusPlus-public/issues" target="_blank" rel="noreferrer">Issues</a>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

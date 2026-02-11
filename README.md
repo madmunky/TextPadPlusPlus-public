@@ -4,7 +4,7 @@ This repository contains public-facing documentation and feedback channels for M
 
 ## What is in this repository
 
-- Support pages (`index.html`, `faq.html`, `privacy.html`)
+- Support pages (`index.html`, `updates.html`, `faq.html`, `privacy.html`)
 - Static web assets (`assets/`)
 - Issue templates for bug reports and feature requests (`.github/ISSUE_TEMPLATE/`)
 
