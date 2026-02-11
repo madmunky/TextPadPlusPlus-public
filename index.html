@@ -4,70 +4,140 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>MacPadPlusPlus Support</title>
-  <meta name="description" content="Official support site for MacPadPlusPlus. Find help, report bugs, and read privacy details.">
+  <meta name="description" content="Official support for MacPadPlusPlus with documentation, screenshots, and feedback channels.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MacPadPlusPlus Support">
+  <meta property="og:description" content="Get support, browse screenshots, and send bug reports or feature requests.">
+  <meta property="og:image" content="https://madmunky.github.io/MacPadPlusPlus-public/assets/screenshots/interface-overview.png">
+  <meta property="og:url" content="https://madmunky.github.io/MacPadPlusPlus-public/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
-  <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
   <header class="container">
     <nav class="top-nav">
       <a class="brand" href="./">MacPadPlusPlus</a>
       <div class="nav-links">
         <a href="./faq.html">FAQ</a>
         <a href="./privacy.html">Privacy</a>
+        <a href="https://github.com/madmunky/MacPadPlusPlus-public/issues" target="_blank" rel="noreferrer">Feedback</a>
       </div>
     </nav>
   </header>
 
   <main class="container">
-    <section class="hero">
-      <p class="eyebrow">Support Center</p>
-      <h1>Help for MacPadPlusPlus</h1>
-      <p class="hero-copy">
-        MacPadPlusPlus is a native macOS editor and large-file log viewer.
-        Use this page for support requests, troubleshooting, and policy details.
-      </p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="https://github.com/madmunky/MacPadPlusPlus-public/issues/new?assignees=&labels=bug&projects=&template=bug_report.md" target="_blank" rel="noreferrer">Report a Bug</a>
-        <a class="btn btn-secondary" href="https://github.com/madmunky/MacPadPlusPlus-public/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md" target="_blank" rel="noreferrer">Request a Feature</a>
+    <section class="hero hero-main reveal">
+      <div>
+        <p class="badge">Native macOS App</p>
+        <h1>Support, Docs, and Product Feedback</h1>
+        <p class="hero-copy">
+          MacPadPlusPlus is a fast native editor and log viewer for macOS.
+          This site gives you troubleshooting resources, a clear feedback channel,
+          and a visual walkthrough of core workflows.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://github.com/madmunky/MacPadPlusPlus-public/issues/new?assignees=&labels=bug&projects=&template=bug_report.md" target="_blank" rel="noreferrer">Report a Bug</a>
+          <a class="btn btn-secondary" href="https://github.com/madmunky/MacPadPlusPlus-public/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md" target="_blank" rel="noreferrer">Request a Feature</a>
+          <a class="btn btn-ghost" href="./faq.html">Open FAQ</a>
+        </div>
+        <ul class="hero-points">
+          <li>Built for large logs and text-heavy workflows.</li>
+          <li>Feedback tracked publicly through GitHub Issues.</li>
+          <li>No source code is published in this repository.</li>
+        </ul>
+      </div>
+      <div class="device-frame">
+        <div class="window-chrome">
+          <span class="dot dot-red"></span>
+          <span class="dot dot-amber"></span>
+          <span class="dot dot-green"></span>
+        </div>
+        <img src="assets/screenshots/interface-overview.png" alt="MacPadPlusPlus interface overview" loading="eager" decoding="async">
       </div>
     </section>
 
-    <section class="grid">
-      <article class="card">
-        <h2>Common Fixes</h2>
-        <ul>
-          <li>Restart the app after changing language or theme settings.</li>
-          <li>For very large files, wait for indexing before searching.</li>
-          <li>If menus look stale, close and reopen the document tab.</li>
-          <li>Reopen recent files from <code>File &gt; Open Recent</code>.</li>
-        </ul>
+    <section class="features-grid reveal">
+      <article class="feature-card">
+        <h2>Focused Support</h2>
+        <p>Use structured issue templates for fast triage and better turnaround on bugs and feature requests.</p>
       </article>
-      <article class="card">
-        <h2>Before You Contact Support</h2>
-        <ul>
-          <li>App version and macOS version</li>
-          <li>Exact steps to reproduce</li>
-          <li>Expected result vs. actual result</li>
-          <li>Sample file or screenshot if possible</li>
-        </ul>
+      <article class="feature-card">
+        <h2>Visual Documentation</h2>
+        <p>Explore screenshots of search, document map, and function list to understand workflows before filing feedback.</p>
       </article>
-      <article class="card">
-        <h2>Links</h2>
-        <ul class="link-list">
-          <li><a href="./faq.html">Read the FAQ</a></li>
-          <li><a href="./privacy.html">Privacy Policy</a></li>
-          <li><a href="https://github.com/madmunky/MacPadPlusPlus-public/issues" target="_blank" rel="noreferrer">Support Issues</a></li>
-          <li><a href="https://github.com/madmunky/MacPadPlusPlus-public/releases" target="_blank" rel="noreferrer">Release Notes</a></li>
-        </ul>
+      <article class="feature-card">
+        <h2>Privacy-First</h2>
+        <p>Support content is public, while application source and private release materials stay in the private repository.</p>
       </article>
     </section>
 
-    <section class="support-template card">
+    <section class="split-section reveal">
+      <div class="content">
+        <p class="eyebrow">Troubleshooting</p>
+        <h2>Diagnose issues quickly</h2>
+        <p>
+          Include your macOS version, app version, file type, and exact reproduction steps.
+          The bug template already prompts for all of this so reports are immediately actionable.
+        </p>
+        <a class="btn btn-secondary" href="https://github.com/madmunky/MacPadPlusPlus-public/issues/new?assignees=&labels=bug&projects=&template=bug_report.md" target="_blank" rel="noreferrer">Start Bug Report</a>
+      </div>
+      <figure class="visual-frame">
+        <img src="assets/screenshots/search-results.png" alt="Search results panel in MacPadPlusPlus" loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+    <section class="split-section split-reverse reveal">
+      <figure class="visual-frame">
+        <img src="assets/screenshots/function-list.png" alt="Function list view in MacPadPlusPlus" loading="lazy" decoding="async">
+      </figure>
+      <div class="content">
+        <p class="eyebrow">Navigation</p>
+        <h2>Document map and function list workflows</h2>
+        <p>
+          Use the screenshots below to identify the feature area impacted by your issue.
+          Linking a screenshot in your report helps narrow down UI context immediately.
+        </p>
+        <a class="btn btn-ghost" href="./privacy.html">Read Privacy Policy</a>
+      </div>
+    </section>
+
+    <section class="gallery reveal" id="screenshots">
+      <div class="gallery-head">
+        <p class="eyebrow">Screenshots</p>
+        <h2>Core UI Workflows</h2>
+        <p>Representative captures from the current app experience.</p>
+      </div>
+      <div class="gallery-grid">
+        <article class="shot-card">
+          <img src="assets/screenshots/interface-overview.png" alt="Interface overview" loading="lazy" decoding="async">
+          <h3>Interface Overview</h3>
+        </article>
+        <article class="shot-card">
+          <img src="assets/screenshots/editing-basics.png" alt="Editing basics" loading="lazy" decoding="async">
+          <h3>Editing Basics</h3>
+        </article>
+        <article class="shot-card">
+          <img src="assets/screenshots/search-results.png" alt="Search results" loading="lazy" decoding="async">
+          <h3>Search Results</h3>
+        </article>
+        <article class="shot-card">
+          <img src="assets/screenshots/document-map.png" alt="Document map" loading="lazy" decoding="async">
+          <h3>Document Map</h3>
+        </article>
+        <article class="shot-card">
+          <img src="assets/screenshots/function-list.png" alt="Function list" loading="lazy" decoding="async">
+          <h3>Function List</h3>
+        </article>
+        <article class="shot-card">
+          <img src="assets/screenshots/udl-xml.png" alt="Syntax highlighting with UDL XML" loading="lazy" decoding="async">
+          <h3>Syntax Highlighting</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="support-template card reveal">
       <h2>Support Request Template</h2>
       <p>Paste this into your issue report:</p>
       <pre><code>- App version:
