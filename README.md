@@ -1,6 +1,6 @@
-# MacPadPlus Public Support
+# TextPad++ Public Support
 
-This repository contains public-facing documentation and feedback channels for MacPadPlus.
+This repository contains public-facing documentation and feedback channels for TextPad++.
 
 ## What is in this repository
 
@@ -18,5 +18,5 @@ This repository contains public-facing documentation and feedback channels for M
 
 Use GitHub Issues to report bugs or request features:
 
-- [Report a bug](https://github.com/madmunky/MacPadPlusPlus-public/issues/new?assignees=&labels=bug&projects=&template=bug_report.md)
-- [Request a feature](https://github.com/madmunky/MacPadPlusPlus-public/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md)
+- [Report a bug](https://github.com/madmunky/TextPadPlusPlus-public/issues/new?assignees=&labels=bug&projects=&template=bug_report.md)
+- [Request a feature](https://github.com/madmunky/TextPadPlusPlus-public/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md)
