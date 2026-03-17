@@ -34,30 +34,37 @@
     <section class="hero hero-compact">
       <span class="eyebrow">Product Updates</span>
       <h1>Bugs & Features</h1>
-      <p class="hero-copy">This page tracks shipped fixes and feature updates for TextPad++.</p>
+      <p class="hero-copy">Recent release notes for fixes and feature improvements in TextPad++.</p>
     </section>
 
     <section class="container support-template">
       <h2>Latest Update</h2>
-      <p><strong>Version:</strong> 1.0.1</p>
-      <p><strong>Date:</strong> February 11, 2026</p>
+      <p><strong>Version:</strong> 1.0 (build 3)</p>
+      <p><strong>Date:</strong> March 11, 2026</p>
     </section>
 
     <section class="container features">
       <article class="card">
         <h2>Bugs Fixed</h2>
         <ul class="capability-list">
-          <li>Fixed a line-number mismatch where the highlighted line could differ from the displayed log line number.</li>
-          <li>Fixed save failures caused by missing temporary file paths when writing back to existing files.</li>
+          <li>Fixed bookmark gutter interactions after scrolling so clicked marks now reliably target the expected line.</li>
+          <li>Fixed blank/placeholder untitled tabs from being kept in the open-tab list once a real file is opened.</li>
+          <li>Fixed session restore paths being skipped silently when missing or moved files are no longer available.</li>
+          <li>Fixed crashes and restore failures when recovering untitled tab content from a saved session.</li>
+          <li>Fixed new documents not receiving immediate typing focus after creation.</li>
+          <li>Fixed bookmark toggles in the Scintilla margin from hitting adjacent lines after hit-testing changes.</li>
+          <li>Fixed large-file behavior where some files opened in limited mode and skipped margin/syntax features.</li>
         </ul>
       </article>
 
       <article class="card">
         <h2>Features Added</h2>
         <ul class="capability-list">
-          <li>Added support channel choice for feedback and bug reporting (GitHub issue or email).</li>
-          <li>Added permission-aware save retry flow when macOS folder write access must be granted.</li>
-          <li>Added a Help menu link in the app that opens this public Bugs & Features page.</li>
+          <li>Added automatic backups for untitled tabs so content is saved periodically while editing unsaved files.</li>
+          <li>Added session restore so open tabs can be restored at launch, with a dedicated resume toggle in settings.</li>
+          <li>Added a redesigned Settings window with sidebar-based navigation and categorized settings sections.</li>
+          <li>Added controls to fully disable session persistence, including immediate stop of session autosave and clearing saved session data.</li>
+          <li>Refined file-open and editor flows to better reuse blank tabs and reduce duplicate session noise.</li>
         </ul>
       </article>
 
