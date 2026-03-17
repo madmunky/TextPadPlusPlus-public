@@ -528,8 +528,21 @@ nav {
   gap: 0.55rem;
 }
 
+.updates-page .changelog-card h2,
+.updates-page .changelog-latest-card h2 {
+  font-size: 1.22rem;
+}
+
 .changelog-list {
   padding-left: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .updates-page .changelog-card h2,
+  .updates-page .changelog-latest-card h2 {
+    font-size: 1.06rem;
+    line-height: 1.22;
+  }
 }
 
 
