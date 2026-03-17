@@ -486,6 +486,53 @@ nav {
   margin: 0.4rem 0;
 }
 
+.updates-page {
+  padding: 1.2rem 0 3rem;
+}
+
+.updates-page .container {
+  width: min(1120px, 92vw);
+  padding-inline: clamp(0.35rem, 1.5vw, 0.9rem);
+}
+
+.updates-page .hero-compact {
+  padding-top: 2.75rem;
+  padding-bottom: 1.2rem;
+}
+
+.updates-page .changelog-latest-card {
+  margin-top: 1rem;
+}
+
+.updates-page .changelog-card {
+  padding: 1.35rem 1.2rem;
+}
+
+.changelog-icon {
+  display: inline-flex;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 999px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--glass-border);
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+
+.changelog-card h2,
+.changelog-latest-card h2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.changelog-list {
+  padding-left: 1.25rem;
+}
+
+
 .support-template h2 {
   margin-bottom: 0.6rem;
 }
