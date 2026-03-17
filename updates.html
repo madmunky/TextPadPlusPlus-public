@@ -37,16 +37,17 @@
       <p class="hero-copy">Recent release notes for fixes and feature improvements in TextPad++.</p>
     </section>
 
-    <section class="container support-template">
+    <section class="container support-template changelog-latest-card">
+      <span class="badge">Current Build</span>
       <h2>Latest Update</h2>
-      <p><strong>Version:</strong> 1.0 (build 3)</p>
-      <p><strong>Date:</strong> March 11, 2026</p>
+      <p class="changelog-meta"><strong>Version:</strong> 1.0 (build 3) <span class="meta-dot">•</span> <strong>Date:</strong> March 11, 2026</p>
+      <p class="changelog-summary">Stability pass focused on session handling, bookmark accuracy, and large-file reliability.</p>
     </section>
 
-    <section class="container features">
-      <article class="card">
+    <section class="container changelog-grid">
+      <article class="card changelog-card">
         <h2>Bugs Fixed</h2>
-        <ul class="capability-list">
+        <ul class="capability-list changelog-list">
           <li>Fixed bookmark gutter interactions after scrolling so clicked marks now reliably target the expected line.</li>
           <li>Fixed blank/placeholder untitled tabs from being kept in the open-tab list once a real file is opened.</li>
           <li>Fixed session restore paths being skipped silently when missing or moved files are no longer available.</li>
@@ -57,9 +58,9 @@
         </ul>
       </article>
 
-      <article class="card">
+      <article class="card changelog-card">
         <h2>Features Added</h2>
-        <ul class="capability-list">
+        <ul class="capability-list changelog-list">
           <li>Added automatic backups for untitled tabs so content is saved periodically while editing unsaved files.</li>
           <li>Added session restore so open tabs can be restored at launch, with a dedicated resume toggle in settings.</li>
           <li>Added a redesigned Settings window with sidebar-based navigation and categorized settings sections.</li>
@@ -68,9 +69,9 @@
         </ul>
       </article>
 
-      <article class="card">
+      <article class="card changelog-card">
         <h2>Track Work</h2>
-        <ul class="link-list capability-list">
+        <ul class="link-list capability-list changelog-list">
           <li><a href="https://github.com/madmunky/TextPadPlusPlus-public/issues" target="_blank" rel="noreferrer">Open issues</a></li>
           <li><a href="https://github.com/madmunky/TextPadPlusPlus-public/releases" target="_blank" rel="noreferrer">Release history</a></li>
           <li><a href="https://github.com/madmunky/TextPadPlusPlus-public/issues/new?labels=bug" target="_blank" rel="noreferrer">Report a bug</a></li>
